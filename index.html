@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="cupcake">
 
 <head>
     <meta charset="UTF-8">
@@ -10,8 +10,28 @@
     <script defer src="script.js"></script>
 </head>
 
-<body>
+<body class="p-4 md:p-8">
+    <!-- navbar -->
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+            <a href="index.html"><img class="w-3/4 md:w-full" src="./Logo.png" alt="Logo"></a>
+        </div>
+        <div class="navbar-center">
+            <button class="btn rounded text-base md:text-lg normal-case">Sort by view</button>
 
+        </div>
+        <div class="navbar-end">
+            <a class="btn rounded text-white bg-red-500 text-base md:text-lg normal-case">Blog</a>
+        </div>
+    </div>
+    <hr class="my-4">
+
+    <!-- tabs -->
+    <div class="flex items-center justify-center">
+        <button class="btn rounded m-2">Tab 1</button>
+        <button class="btn rounded m-2">Tab 2</button>
+        <button class="btn rounded m-2">Tab 3</button>
+    </div>
 </body>
 
 </html>
